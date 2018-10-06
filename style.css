@@ -28,6 +28,19 @@ h1 {
     white-space: nowrap;
 }
 
+ul {
+    font-size: 1rem;
+    color: #fff;
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    display: none;
+}
+
+ul .reveal {
+    display: block;
+}
+
 .button {
     display: block;
     position: absolute;
@@ -125,6 +138,12 @@ h1 {
 .hover-right .left:before {
     z-index: 2;
 }
+
+.reveal {
+    display: hidden;
+}
+
+
 
 @media(max-width: 800px) {
 
