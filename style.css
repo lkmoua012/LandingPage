@@ -18,6 +18,12 @@ html, body {
     overflow-x: hidden;
 }
 
+span {
+    color: #fff;
+    font-size: 2rem;
+    position: absolute;
+}
+
 h1 {
     font-size: 4rem;
     color: #fff;
