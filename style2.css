@@ -10,7 +10,7 @@
 }
 
 html {
-  background: url("assets/images/about.jpg") center center no-repeat;
+  background: url("assets/images/about.jpg") no-repeat center center fixed;
 }
 
 html, body {
@@ -23,12 +23,32 @@ html, body {
     font-size: 1.25rem;
 }
 
+a {
+  color: gray;
+  text-decoration: none;
+}
+
+h3 {
+  margin: 0;
+}
+
+p {
+  font-size: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 * {box-sizing: border-box;}
 
 .container {
   background: rgba(43, 43, 43, 0.5);
   width: 50%;
   margin: 0 auto;
+  text-align: center;
 }
 
 .header {
